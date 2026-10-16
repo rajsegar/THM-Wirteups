@@ -18,7 +18,8 @@ This repository documents my approach to investigating vulnerabilities, exploiti
 
 | Room | Difficulty | Topics | Progress |
 |---|---|---|---|
-| Skynet | Easy | SMB, Hydra, SquirrelMail, LFI/RFI, Linux Privilege Escalation | User flag obtained; root escalation investigated |
+| [Skynet](./Skynet/) | Easy | SMB, Hydra, SquirrelMail, LFI/RFI, Linux Privilege Escalation | User flag obtained; root escalation investigated |
+| [TryHackMe Support](./Support/) | Not specified | Nmap, Gobuster, Hydra, Broken Access Control, IDOR, Path Traversal, PHP Source Disclosure, Command Injection, RCE | ✅ Completed — Both flags obtained |
 
 Additional walkthroughs will be added as I complete and document more labs.
 
