@@ -20,6 +20,8 @@ This repository documents my approach to investigating vulnerabilities, exploiti
 |---|---|---|---|
 | [Skynet](./Skynet/) | Easy | SMB, Hydra, SquirrelMail, LFI/RFI, Linux Privilege Escalation | User flag obtained; root escalation investigated |
 | [TryHackMe Support](./TryHackMe%20Support/README.md) | Not specified | Nmap, Gobuster, Hydra, Broken Access Control, IDOR, Path Traversal, PHP Source Disclosure, Command Injection, RCE | ✅ Completed — Both flags obtained |
+| [Injectics](./Injectics/TryHackMe_Injectics_Command_by_Command_Writeup.md) | Medium | SQL Injection, Authentication Bypass, Database Manipulation, SSTI, Twig Sandbox Bypass, Remote Code Execution | ✅ Completed — Both flags obtained |
+
 
 Additional walkthroughs will be added as I complete and document more labs.
 
